@@ -32,4 +32,4 @@ jobs:
     - name: Run tests
       run: mvn test
     - name: Run unit tests
-      run: mvn verify -f --file pom.xml
+      run: mvn verify
