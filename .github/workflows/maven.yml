@@ -31,3 +31,5 @@ jobs:
       run: mvn -B package --file pom.xml
     - name: Run tests
       run: mvn test
+    - name: Run unit tests
+      run: mvn verify -f --file pom.xml
